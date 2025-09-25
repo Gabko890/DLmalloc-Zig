@@ -1,0 +1,64 @@
+# Zig build artifacts
+zig-cache/
+zig-out/
+.zig-cache/
+
+# Build outputs
+*.lib
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.wasm
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+*.dSYM/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary build files
+build_simple.zig
+build_test.zig
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Documentation build
+docs/
+*.html
+
+# Benchmark results
+benchmarks/*.txt
+benchmarks/*.json
+results/
+
+# Test outputs
+test-results/
+coverage/
+
+# Local configuration
+.env
+.env.local
+local.zig
+
+# Raw translated file (kept for reference but not needed in repo)
+src/dlmalloc_raw.zig
